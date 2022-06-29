@@ -56,8 +56,8 @@ M6_MFE = np.squeeze(scipy.io.loadmat("./methods/" + 'M6' + "/MFE.mat")['mfe'])
 # Loop over all point clouds:
 for i in range(1, config['num_files'] + 1):
     
-    GT[i - 1]            = list(np.loadtxt("../benchmark/dataset/GTpointCloud/GTpointCloud" + str(i) + ".txt"))
-    GT_info[i - 1]       = list(np.loadtxt("../benchmark/dataset/infoPointCloud/infoPointCloud" + str(i) + ".txt"))
+    GT[i - 1]            = list(np.loadtxt("../dataset/test/GTpointCloud/GTpointCloud" + str(i) + ".txt"))
+    GT_info[i - 1]       = list(np.loadtxt("../dataset/test/infoPointCloud/infoPointCloud" + str(i) + ".txt"))
     has_unif_noise      += [GT_info[i - 1][0] > 0]
     has_Gauss_noise     += [GT_info[i - 1][3] > 0]
     has_undersampling   += [GT_info[i - 1][6] > 0]
