@@ -1,6 +1,6 @@
 # SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds
 
-This repository the routines that were used to produced the results in [1], which were tested on a 2019 MacBook pro running MacOS Monterey version 12.4. The numbering of figures and tables refers to the ArXiv version of the paper. The dataset and the ground truths behind the benchmark can be found at:
+This repository contains the routines that were used to produced the results in [1], which were tested on a 2019 MacBook pro running MacOS Monterey version 12.4. The numbering of figures and tables refers to the ArXiv version of the paper. The dataset, the ground truth and the results submitted by the participants of the track can be found at:
 
 https://github.com/chiararomanengo/SHREC2022.git
 
