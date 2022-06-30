@@ -6,7 +6,7 @@ https://github.com/chiararomanengo/SHREC2022.git
 
 ### Before running
 The folders foung in the link above should be placed as follows:
-- The folder `benchmark` should be placed at the same level as `results`.
+- The folder `dataset` should be placed at the same level as `results`.
 - The folder `methods` should be placed inside `results`. 
 Note that these folders are collected in a separate GitHub repository as the size limit for GRSI is set at 500 MB.
 
